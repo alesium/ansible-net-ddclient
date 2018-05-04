@@ -1,0 +1,11 @@
+---
+  - name: enable ddclient
+    service:
+      name: "{{ net_ddclient_service_name }}"
+      enabled: yes
+
+  - name: restart ddclient
+    service:
+      name: "{{ net_ddclient_service_name }}"
+      state: restarted
+      enabled: yes

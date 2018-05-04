@@ -1,0 +1,7 @@
+net_ddclient_packages:
+  - ddclient
+net_ddclient_config_file_src: ddclient.conf.j2
+net_ddclient_config_file_dest: /etc/ddclient.conf
+net_ddclient_config_file_owner: root
+net_ddclient_config_file_group: root
+net_ddclient_service_name: ddclient
